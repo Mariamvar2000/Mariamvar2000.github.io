@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Laila&display=swap');
+
+.from {
+    text-align: center;
+    margin-bottom: 0;
+
+    font-size: 40px;
+font-family: 'Laila', sans-serif;
+margin-top: 130px;
+letter-spacing: -2px;
+}
+.from:hover{
+    color: goldenrod;
+}
+
+.imgs3{
+width: 100% ;
+height: 330px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: 0;
+}
+
+.imgs3Item img{
+  
+  width: 310px ;
+ 
+  height: 310px ;
+  
+}
+
+.imgs3Item {
+  width: 400px ;
+  height: 310px ;
+}
+.btns5{
+  background-color: black;
+  color: white;
+  border: none;
+  width: 150px;
+  max-width: auto;
+  height: 40px;
+  max-height: auto;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.btns5:hover{
+  background-color: rgba(0, 0, 0, 0.229);
+  cursor: pointer;
+}
+.p1{
+  font-size: 17px auto;
+  margin-left: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+}
+.p2{
+  font-size: 11px;
+  font-weight: 450;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  margin-right: 50px
+}
+.cont6img{
+  width: 62%;
+  margin-top: 250px;
+}
+.btns2{
+  width: 30%;
+  margin-left: 40px;
+  transform: translateY(-20px);
+  height: 42px ;
+  min-height: auto;
+  width: 315px ;
+  min-width: auto;
+  margin-top: 12px;
+  border: 2px solid black;
+  letter-spacing: 2px;
+  background-color: #FAF6EF;
+  font-size: 11px;
+   margin-bottom: 50px;
+}
+.btns2:hover{
+  background-color: black;
+  color: white;
+ 
+}
+
+@media(max-width:1000px) {
+  .imgs3Item img {
+    max-width: 90%;
+    max-height: 50%;
+    margin-left: 22px;
+  
+  }
+  .imgs3Item{
+  font-size:15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
+  }
+  .p2 {
+    font-size: 11px;
+  }
+  .imgs3{
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .btns5{
+    max-width: 60%;
+    max-height: 50%;
+  }
+  .btns2{
+    max-width: 30%;
+    max-height: 50%;
+  }
+  .from{
+    font-size: 30px;
+  }
+}

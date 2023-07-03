@@ -1,0 +1,26 @@
+.conf{
+    width: 100%;
+    min-width: auto;
+    min-height: 371px;
+    height: 471px;
+    margin: 0;
+}
+.confDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+   
+}
+.confDiv p {
+    font-size: 21px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    
+}
+.confDiv div {
+
+    width: 272px;
+    height: 142px;
+}

@@ -1,0 +1,16 @@
+.sliderContaine{
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    overflow: hidden;
+    background-color: blue;
+}
+.imageDiv{
+    display: flex;
+    height: 100%;
+    transition: 1s;
+}
+.slideImg{
+    width: 100%;
+    
+}

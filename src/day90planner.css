@@ -1,0 +1,39 @@
+.day90{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 285px;
+    margin-top: 100px;
+}
+.day1 img {
+    height: 285px;
+    width: 100%;
+}
+.day2{
+    font-size: 45px;
+    margin-left: 40px;
+}
+.pto{
+    font-size: 16px;
+}
+.ass{
+    margin-top: 170px;
+    width: 100%;
+    height: 50px;
+}
+.gic2{
+    width: 89%;
+    margin-top: 30px;
+    color: rgba(128, 128, 128, 0.138);
+}
+
+@media(max-width:1000px){
+    .gic2{
+        transform: translateY(120px);
+        width: 100%;
+    }
+    .day90{
+        margin-top: 200px;
+    }
+
+}

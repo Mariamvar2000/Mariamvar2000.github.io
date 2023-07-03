@@ -1,0 +1,41 @@
+.welcome{
+    width: 483px;
+    height: 188.09px;
+}
+.content2-txt1{
+    font-size: 45px;
+    text-align: center;
+    font-family:Instrument Serif;
+    font-weight: lighter;
+}
+.content2-txt2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-family: serif;
+    margin-top: 50px;
+    line-height: 30px;
+   
+}
+.content2-txt3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 55px;
+}
+.btndiv{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin-top: 40px;
+}
+.line{
+    width: 100%;
+    margin-top: 40px;
+}
+.content2-txt4{
+    text-align: center;
+    font-size: 16px;
+    font-family: instrumental serif;
+    letter-spacing: 3px;
+}

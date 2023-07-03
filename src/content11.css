@@ -1,0 +1,13 @@
+.hat2{
+    display:  flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.div11-1{
+width: 35%;
+font-size: 36px;
+}
+.div11-2{
+width: 65%;
+font-size: 17px;
+}

@@ -1,0 +1,91 @@
+.hooter{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+.hoot-mu{
+    font-size: 19.2px;
+}
+.hoot-mu1{
+    font-size: 20px;
+    cursor: pointer;
+}
+.div13{
+   line-height: 40px;
+}
+.btn13{
+    height: 42px;
+    width: 180px;
+    margin-left: 790px;
+    margin-top: 50px;
+    border: 2px solid black;
+    letter-spacing: 2px;
+    background-color: #FAF6EF;
+    font-size: 11px;
+}
+.btn13:hover{
+    background-color: black;
+    color: white; 
+}
+.lastgic{
+    width: 1000px;
+    height: 76px;
+}
+.book{
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+.book:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+.hoot-mu:hover{
+    color: goldenrod;
+}
+.icons2{
+    font-size: 22px;
+    color: #1C2018;
+}
+.last2{
+    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.last2 p{
+    font-size: 12px;
+    color: #1C2018;
+}
+.lastp{
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+ @media (max-width:1000px) {
+    .book{
+        font-size: 16px;
+    }
+    .lastp{
+        margin-bottom: 55px;
+    }
+    .lastgic{
+        max-width: 90%;
+    }
+    .hooter{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .hoot-mu{
+        font-size: 16px;
+    }
+    .btn13div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .btn13{
+        margin-left: 0;
+    }
+ }

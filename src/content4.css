@@ -1,0 +1,127 @@
+.main4div{
+    display: flex;
+    flex-flow: row;
+     max-width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+
+}
+.div4-1{
+    display: flex;
+    align-items: center;
+   
+    flex-flow: column wrap;
+    width: 50%;
+    font-family: instrumental serif;
+    
+    height: 850px;
+    position: relative;
+    margin-left: 50px;
+    
+}
+.div4-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    width:50%;
+    height: 850px;
+    margin-right: 50px;
+    
+}
+.div4-1 h1 {
+    font-size: 45px;
+    font-weight: lighter;
+
+
+}
+.div4-1 img { 
+    height: 320px;
+    width: 470px;
+    margin: 0;
+    left: 0;
+    position: absolute;
+    margin-top: 200px;
+   
+}
+.div4-1 h1:nth-child(3){
+    position: absolute;
+    margin-top: 550px;
+    font-size: 45px;
+    left: 2%;
+    
+}
+ .img4-2 {
+    width: 550px;
+    height: 380px;
+
+    margin-top: 90px;
+}
+.img4-3{
+  height: 320px;
+  width: 450px;
+    margin-bottom: 40px;
+    
+}
+.keter{
+    font-size: 36px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.keter p {
+   
+    color: #1C2018;
+    
+}
+
+.gic{
+    color: gray;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+@media(max-width:1000px){
+    .main4div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column ;
+        height: 100%
+        
+    
+    }
+    .div4-1{
+      display: flex;
+      align-items: center;
+      flex-flow: column wrap;
+      width: 100%;
+      max-height: 600px;
+      font-family: instrumental serif;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      position: relative;
+      margin-left: 50px;
+      
+    }
+    .div4-2{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-flow: column wrap;
+      width: 100%;
+      
+      margin-right: 50px;
+      
+    }
+    .img4-3{
+        height: 320px;
+        width: 450px;
+          margin-bottom: 0px;
+          margin-top: 0;
+          
+      }
+}
